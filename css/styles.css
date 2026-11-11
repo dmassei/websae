@@ -815,7 +815,7 @@ body {
   box-shadow: 0 12px 30px rgba(22,35,92,0.08);
   opacity: 0;
   transform: translateY(42vh);
-  transition: opacity 0.5s var(--ease), transform 1.2s var(--ease), box-shadow 0.4s var(--ease);
+  transition: opacity 0.5s var(--ease), transform 1.5s var(--ease), box-shadow 0.4s var(--ease);
 }
 .card.in { opacity: 1; transform: none; }
 .card:hover { box-shadow: 0 30px 60px rgba(22,35,92,0.18); }
