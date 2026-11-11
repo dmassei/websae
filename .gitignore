@@ -1,0 +1,8 @@
+# Sistema
+.DS_Store
+
+# Config local del entorno
+.claude/
+
+# Carpeta de fotos crudas (fuente, no va al sitio publicado)
+IMG raw DM/

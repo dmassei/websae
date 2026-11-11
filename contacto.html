@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — SAE</title>
+  <meta name="description" content="Contactá a SAE. Asesoramiento técnico en herramientas abrasivas y diamantadas. Rosario, Santa Fe, Argentina." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="index.html" class="brand" aria-label="SAE - Inicio">SAE</a>
+      <nav class="header-actions">
+        <a href="productos.html" class="header-link">Productos</a>
+        <a href="empresa.html" class="header-link">Empresa</a>
+        <a href="contacto.html" class="btn-contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="productos.html">Productos</a>
+      <a href="empresa.html">Empresa</a>
+      <a href="index.html#industrias">Industrias</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+
+  <main id="top">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Inicio</a> · Contacto</p>
+        <h1 class="page-hero-title">Contacto</h1>
+        <p class="page-hero-sub">Contanos sobre tu proceso y te asesoramos en la herramienta abrasiva más adecuada.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section">
+      <div class="container contact-grid">
+
+        <!-- Info -->
+        <div>
+          <p class="overline">Datos de contacto</p>
+          <h2 class="section-title" style="font-size:clamp(1.6rem,3vw,2.4rem); margin-bottom:2.2rem;">Hablemos de tu proyecto</h2>
+
+          <div class="info-block">
+            <h4>Teléfonos</h4>
+            <a href="tel:+543414373366">+54 341 437 3366</a>
+            <a href="tel:+543414373142">+54 341 437 3142</a>
+          </div>
+          <div class="info-block">
+            <h4>Ubicación</h4>
+            <p>Rosario, Santa Fe</p>
+            <p>Argentina</p>
+          </div>
+          <div class="info-block">
+            <h4>Horario de atención</h4>
+            <p>Lunes a viernes, 8:00 a 17:00 h</p>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div>
+          <p class="overline">Enviar consulta</p>
+          <form class="form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="empresa">Empresa</label>
+              <input type="text" id="empresa" name="empresa" autocomplete="organization" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar consulta</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-note">* Formulario de demostración. Para conectarlo necesitamos definir el servicio de envío (email o CRM).</p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand brand-footer">SAE</a>
+        <p>Tecnología en insumos abrasivos para la industria.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h5>Productos</h5>
+          <a href="productos.html#muelas">Muelas diamantadas</a>
+          <a href="productos.html#rectificadores">Rectificadores</a>
+          <a href="productos.html#brunidores">Bruñidores</a>
+          <a href="productos.html#matriceria">Insumos de matricería</a>
+        </div>
+        <div>
+          <h5>Empresa</h5>
+          <a href="empresa.html">Nuestra historia</a>
+          <a href="empresa.html#industrias">Industrias</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div>
+          <h5>Contacto</h5>
+          <a href="tel:+543414373366">+54 341 437 3366</a>
+          <a href="tel:+543414373142">+54 341 437 3142</a>
+          <span class="muted">Rosario, Santa Fe — Argentina</span>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> SAE Group — Todos los derechos reservados</span>
+      <span class="muted">Prototipo de rediseño</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
